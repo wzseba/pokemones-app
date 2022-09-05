@@ -9,6 +9,7 @@ function App() {
   return (
     
     <>
+    {/* revisar render de navegacion problemas con store */}
       <Route path='/' element={<NavBar/>}/>
       <Route path='/home' element={<Home/>}/>
       <Route path='/create' element={<CreatePoke/>}/>
